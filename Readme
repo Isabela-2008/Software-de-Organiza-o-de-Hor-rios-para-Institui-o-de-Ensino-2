@@ -1,0 +1,62 @@
+Enunciado do Projeto
+Título: Organizador de Horários para Instituições de Ensino
+
+Descrição: O Organizador de Horários é um software desenvolvido em Python utilizando a biblioteca Tkinter para interface gráfica e SQLite para armazenamento de dados. O objetivo do projeto é permitir o cadastro e a gestão de professores, turmas, disciplinas e horários em uma instituição de ensino, facilitando a organização do planejamento educacional.
+
+Funcionalidades:
+
+Cadastro de Professores:
+Nome
+Aulas por dia
+Aulas por semana
+Cadastro de Turmas:
+Ano
+Série
+Cadastro de Disciplinas:
+Nome
+Professor associado
+Turma associada
+Gerenciamento de Horários:
+Adição de horários com dia e hora
+Visualização de horários em formato de tabela
+Exclusão de horários
+Exportação de horários em PDF
+README.md
+markdown
+Copiar código
+# Organizador de Horários
+
+O Organizador de Horários é uma aplicação desenvolvida em Python que permite a gestão de horários em instituições de ensino. O software é projetado para facilitar o cadastro de professores, turmas, disciplinas e horários, oferecendo uma interface amigável e funcional.
+
+## Funcionalidades
+
+- **Cadastro de Professores**: Permite adicionar informações sobre os professores, como nome e carga horária.
+- **Cadastro de Turmas**: Facilita a criação de turmas informando o ano e a série.
+- **Cadastro de Disciplinas**: Adiciona disciplinas associadas a um professor e uma turma específica.
+- **Gerenciamento de Horários**: Permite adicionar, visualizar e excluir horários. Os horários podem ser exportados em formato PDF.
+
+## Tecnologias Utilizadas
+
+- **Python**: Linguagem de programação utilizada para o desenvolvimento do projeto.
+- **Tkinter**: Biblioteca para criação da interface gráfica.
+- **SQLite**: Banco de dados utilizado para armazenamento de dados.
+- **ReportLab**: Biblioteca para geração de PDFs.
+
+## Como Executar
+
+1. Certifique-se de ter o Python instalado em seu computador.
+2. Instale as bibliotecas necessárias:
+   ```bash
+   pip install reportlab
+Clone este repositório:
+bash
+Copiar código
+git clone https://github.com/seuusuario/organizador-horarios.git
+Navegue até a pasta do projeto:
+bash
+Copiar código
+cd organizador-horarios
+Execute o script:
+bash
+Copiar código
+python organizador_horarios.py
